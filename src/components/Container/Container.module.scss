@@ -1,0 +1,12 @@
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ContactListItem:not(:last-of-type) {
+  margin-bottom: 10px;
+}
