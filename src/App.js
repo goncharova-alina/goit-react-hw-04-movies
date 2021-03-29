@@ -11,27 +11,6 @@ import routes from "./routes";
 const App = () => {
   return (
     <>
-      {/* <ul>
-        <li>
-          <NavLink
-            exact
-            to="/"
-            className="NavLink"
-            activeClassName="NavLink--active"
-          >
-            Home
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/authors"
-            className="NavLink"
-            activeClassName="NavLink--active"
-          >
-            Movie
-          </NavLink>
-        </li>
-      </ul> */}
       <AppBar />
 
       <Switch>

@@ -1,0 +1,21 @@
+.movie-main-info {
+  display: flex;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid firebrick;
+}
+
+.MovieDesc {
+  width: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 10px;
+
+  & :not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.button-back {
+  margin-bottom: 5px;
+}

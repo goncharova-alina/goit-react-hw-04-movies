@@ -1,0 +1,10 @@
+.MoviesList {
+  margin-top: 15px;
+
+  .item {
+    padding-left: 30px;
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  }
+}
