@@ -3,7 +3,6 @@ import { Link, Route } from "react-router-dom";
 import Cast from "./Cast";
 import Reviews from "./Reviews";
 import { withRouter } from "react-router-dom";
-
 import "./MovieOtherInfo.scss";
 
 class MovieOtherInfo extends Component {

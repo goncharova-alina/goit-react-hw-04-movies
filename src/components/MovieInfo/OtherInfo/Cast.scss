@@ -1,0 +1,11 @@
+.CastList {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  .item {
+    margin-top: auto;
+    width: 250px;
+  }
+}
